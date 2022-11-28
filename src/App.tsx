@@ -1,7 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 import {
- ZapparCamera, InstantTracker, ZapparCanvas, BrowserCompatibility,
-} from '@zappar/zappar-react-three-fiber';
+  BrowserCompatibility,
+  InstantTracker,
+  ZapparCamera,
+  ZapparCanvas
+} from "@zappar/zappar-react-three-fiber";
+import MainObjects from "./components/MainObjects";
 
 function App() {
   const [placementMode, setPlacementMode] = useState(true);
@@ -11,10 +15,7 @@ function App() {
       <ZapparCanvas>
         <ZapparCamera />
         <InstantTracker placementMode={placementMode} placementCameraOffset={[0, 0, -5]}>
-          <mesh>
-            <boxBufferGeometry />
-            <meshStandardMaterial color="hotpink" />
-          </mesh>
+        <MainObjects /> 
         </InstantTracker>
         <directionalLight position={[2.5, 8, 5]} intensity={1.5} />
 
