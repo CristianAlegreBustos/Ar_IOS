@@ -91,6 +91,7 @@ function BoxBeneficios({ onSelect, position, name, onEnded, freezed }) {
       dispose={null}
       scale={0.015}
       ref={cubo}
+      rotation={[Math.PI/2,0,0]}
     >
       <animated.mesh
         castShadow

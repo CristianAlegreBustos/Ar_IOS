@@ -21,7 +21,7 @@ const FinalText = ({ display }) => {
   }, [display])
 
   return (
-    <animated.group scale={scale}>
+    <group scale={scale}>
       {display && (
         <PositionalAudio
           loop={false}
@@ -32,13 +32,11 @@ const FinalText = ({ display }) => {
       )}
      
         <WspLogo scale={0.01} position={[-0.16, -0.2, -1]} />
-      
-     
         <InstagramLogo scale={0.01} position={[-0, -0.2, -1]} />
 
         <TikTokLogo scale={0.01} position={[0.16, -0.2, -1]} />
 
-    </animated.group>
+    </group>
   )
 }
 

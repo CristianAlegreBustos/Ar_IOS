@@ -1,9 +1,10 @@
-import { memo, useRef, useState, useCallback } from "react";
+import { lazy,memo, useRef, useState, useCallback } from "react";
 import { animated } from "@react-spring/three";
-import Tarjeta from "../models/Tarjeta.js";
-import WelcomeText from "./WelcomeText.js";
-import FinalText from "./FinalText.js";
-import BenefitsObjects from "./BenefitsObjects.js";
+
+const Tarjeta = lazy(() => import('../models/Tarjeta.js'))
+const WelcomeText= lazy(() => import('./WelcomeText.js'))
+const FinalText = lazy(()=>import('./FinalText.js'))
+const BenefitsObjects=lazy(()=>import('./BenefitsObjects.js'))
 
 const MainObjects = () => {
   console.log("Main Objects");
@@ -20,10 +21,10 @@ const MainObjects = () => {
 
   return (
       <animated.group dispose={null}>
-          <WelcomeText display={display} />
-          <Tarjeta position={[0.1, 0.05, -1.2]} />
-          <BenefitsObjects handleClick={addContador} />
-          <FinalText display={display} />
+        <WelcomeText display={display} />
+        <Tarjeta position={[0,-0.07, -1.2]} />
+        <BenefitsObjects handleClick={addContador} /> 
+        <FinalText display={display} /> 
       </animated.group>
   );
 };

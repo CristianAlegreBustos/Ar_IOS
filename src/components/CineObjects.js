@@ -13,7 +13,7 @@ const CineObjects = ({ onSelect, onEnded, freezed }) => {
       <BoxBeneficios
         freezed={freezed}
         name="CineObject"
-        position={[0.25, -0.2, -1.2]}
+        position={[0.25, -0.11, -1.2]}
         onSelect={() => {
           api.start({
             scale: 0.01,

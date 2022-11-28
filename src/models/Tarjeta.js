@@ -2,18 +2,18 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
-export default function Tarjeta(props) {
+export default function Tarjeta({position}) {
   const { nodes, materials } = useGLTF('./modelosRA/tarjeta3dCompressed.gltf')
-  const tarjeta = useRef()
+   const tarjeta = useRef()
 
   useFrame(state => {
      const t = state.clock.getElapsedTime()
-     tarjeta.current.rotation.x = (1 + Math.sin(t)) / 3
+     tarjeta.current.rotation.y = (1 + Math.sin(t)) / 3
   })
 
   return (
-    <group {...props} dispose={null} scale={0.01} ref={tarjeta}>
-      <group rotation={[0,Math.PI/2,Math.PI/2]}>
+    <group position={position} dispose={null} scale={0.01}  ref={tarjeta}>
+      <group rotation={[Math.PI/2,0,0]}>
         <mesh
           castShadow
           receiveShadow

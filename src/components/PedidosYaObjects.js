@@ -14,7 +14,7 @@ const PedidosYaObjects = ({ onSelect, onEnded, freezed }) => {
       <BoxBeneficios
         freezed={freezed}
         name="PedidosYaObjects"
-        position={[-0.3, -0.2, -1.2]}
+        position={[-0.3, -0.1, -1.2]}
         onSelect={() => {
           api.start({
             scale: 0.01,
