@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Ar_IOS/static/css/main.3d972525.css",
-    "main.js": "/Ar_IOS/static/js/main.ed538b10.js",
+    "main.js": "/Ar_IOS/static/js/main.2ddad171.js",
     "static/js/971.3877548c.chunk.js": "/Ar_IOS/static/js/971.3877548c.chunk.js",
     "static/js/529.c055e224.chunk.js": "/Ar_IOS/static/js/529.c055e224.chunk.js",
     "static/js/405.ffa63199.chunk.js": "/Ar_IOS/static/js/405.ffa63199.chunk.js",
     "static/js/241.ded00e24.chunk.js": "/Ar_IOS/static/js/241.ded00e24.chunk.js",
-    "static/js/220.65652f3f.chunk.js": "/Ar_IOS/static/js/220.65652f3f.chunk.js",
-    "static/js/148.c1491e95.chunk.js": "/Ar_IOS/static/js/148.c1491e95.chunk.js",
+    "static/js/220.3f60c24f.chunk.js": "/Ar_IOS/static/js/220.3f60c24f.chunk.js",
+    "static/js/148.59cb9a42.chunk.js": "/Ar_IOS/static/js/148.59cb9a42.chunk.js",
     "static/js/zcv.wasm": "/Ar_IOS/static/js/zcv.wasm",
     "face_mesh_full_head_simplified_model.zbin": "/Ar_IOS/f7b62a3a53b5c9b3222ba8dc53cb8b11.zbin",
     "face_mesh_face_model.zbin": "/Ar_IOS/b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
@@ -16,16 +16,16 @@
     "index.html": "/Ar_IOS/index.html",
     "static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": "/Ar_IOS/static/media/.1feff74faaf0efc6a044",
     "main.3d972525.css.map": "/Ar_IOS/static/css/main.3d972525.css.map",
-    "main.ed538b10.js.map": "/Ar_IOS/static/js/main.ed538b10.js.map",
+    "main.2ddad171.js.map": "/Ar_IOS/static/js/main.2ddad171.js.map",
     "971.3877548c.chunk.js.map": "/Ar_IOS/static/js/971.3877548c.chunk.js.map",
     "529.c055e224.chunk.js.map": "/Ar_IOS/static/js/529.c055e224.chunk.js.map",
     "405.ffa63199.chunk.js.map": "/Ar_IOS/static/js/405.ffa63199.chunk.js.map",
     "241.ded00e24.chunk.js.map": "/Ar_IOS/static/js/241.ded00e24.chunk.js.map",
-    "220.65652f3f.chunk.js.map": "/Ar_IOS/static/js/220.65652f3f.chunk.js.map",
-    "148.c1491e95.chunk.js.map": "/Ar_IOS/static/js/148.c1491e95.chunk.js.map"
+    "220.3f60c24f.chunk.js.map": "/Ar_IOS/static/js/220.3f60c24f.chunk.js.map",
+    "148.59cb9a42.chunk.js.map": "/Ar_IOS/static/js/148.59cb9a42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d972525.css",
-    "static/js/main.ed538b10.js"
+    "static/js/main.2ddad171.js"
   ]
 }
