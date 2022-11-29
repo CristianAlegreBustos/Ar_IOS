@@ -4,7 +4,7 @@ import { useFrame } from '@react-three/fiber'
 import { memo } from 'react'
 
 function TikTokLogo({ position, scale }) {
-  const { nodes, materials } = useGLTF('/modelosRA/tiktokLogoCompressed.gltf')
+  const { nodes, materials } = useGLTF('./modelosRA/tiktokLogoCompressed.gltf')
   const tiktok = useRef()
 
   useFrame(({ clock }) => {
