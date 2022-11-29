@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "./static/css/main.559d2a52.chunk.css",
-    "main.js": "./static/js/main.9d325900.chunk.js",
-    "main.js.map": "./static/js/main.9d325900.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.6cb5ca47.js",
-    "runtime-main.js.map": "./static/js/runtime-main.6cb5ca47.js.map",
-    "static/js/2.df24492d.chunk.js": "./static/js/2.df24492d.chunk.js",
-    "static/js/2.df24492d.chunk.js.map": "./static/js/2.df24492d.chunk.js.map",
-    "static/js/3.594a4f10.chunk.js": "./static/js/3.594a4f10.chunk.js",
-    "static/js/3.594a4f10.chunk.js.map": "./static/js/3.594a4f10.chunk.js.map",
-    "face_tracking_model.zbin": "./482727c0e7dd40d73f5aae47f238ad61.zbin",
-    "face_mesh_face_model.zbin": "./b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
-    "face_mesh_full_head_simplified_model.zbin": "./f7b62a3a53b5c9b3222ba8dc53cb8b11.zbin",
-    "index.html": "./index.html",
-    "static/css/main.559d2a52.chunk.css.map": "./static/css/main.559d2a52.chunk.css.map",
-    "static/js/2.df24492d.chunk.js.LICENSE.txt": "./static/js/2.df24492d.chunk.js.LICENSE.txt",
-    "static/js/worker.00c61afe.worker.js": "./static/js/worker.00c61afe.worker.js",
-    "static/js/worker.00c61afe.worker.js.map": "./static/js/worker.00c61afe.worker.js.map",
-    "static/js/zcv.wasm": "./static/js/zcv.wasm"
+    "main.css": "/Ar_IOS/static/css/main.3d972525.css",
+    "main.js": "/Ar_IOS/static/js/main.ed538b10.js",
+    "static/js/971.3877548c.chunk.js": "/Ar_IOS/static/js/971.3877548c.chunk.js",
+    "static/js/529.c055e224.chunk.js": "/Ar_IOS/static/js/529.c055e224.chunk.js",
+    "static/js/405.ffa63199.chunk.js": "/Ar_IOS/static/js/405.ffa63199.chunk.js",
+    "static/js/241.ded00e24.chunk.js": "/Ar_IOS/static/js/241.ded00e24.chunk.js",
+    "static/js/220.65652f3f.chunk.js": "/Ar_IOS/static/js/220.65652f3f.chunk.js",
+    "static/js/148.c1491e95.chunk.js": "/Ar_IOS/static/js/148.c1491e95.chunk.js",
+    "static/js/zcv.wasm": "/Ar_IOS/static/js/zcv.wasm",
+    "face_mesh_full_head_simplified_model.zbin": "/Ar_IOS/f7b62a3a53b5c9b3222ba8dc53cb8b11.zbin",
+    "face_mesh_face_model.zbin": "/Ar_IOS/b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
+    "face_tracking_model.zbin": "/Ar_IOS/482727c0e7dd40d73f5aae47f238ad61.zbin",
+    "static/js/worker.19d64409.worker.js": "/Ar_IOS/static/js/worker.19d64409.worker.js",
+    "index.html": "/Ar_IOS/index.html",
+    "static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": "/Ar_IOS/static/media/.1feff74faaf0efc6a044",
+    "main.3d972525.css.map": "/Ar_IOS/static/css/main.3d972525.css.map",
+    "main.ed538b10.js.map": "/Ar_IOS/static/js/main.ed538b10.js.map",
+    "971.3877548c.chunk.js.map": "/Ar_IOS/static/js/971.3877548c.chunk.js.map",
+    "529.c055e224.chunk.js.map": "/Ar_IOS/static/js/529.c055e224.chunk.js.map",
+    "405.ffa63199.chunk.js.map": "/Ar_IOS/static/js/405.ffa63199.chunk.js.map",
+    "241.ded00e24.chunk.js.map": "/Ar_IOS/static/js/241.ded00e24.chunk.js.map",
+    "220.65652f3f.chunk.js.map": "/Ar_IOS/static/js/220.65652f3f.chunk.js.map",
+    "148.c1491e95.chunk.js.map": "/Ar_IOS/static/js/148.c1491e95.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6cb5ca47.js",
-    "static/js/2.df24492d.chunk.js",
-    "static/css/main.559d2a52.chunk.css",
-    "static/js/main.9d325900.chunk.js"
+    "static/css/main.3d972525.css",
+    "static/js/main.ed538b10.js"
   ]
 }

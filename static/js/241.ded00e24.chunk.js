@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkar_ios=self.webpackChunkar_ios||[]).push([[241],{3241:function(e,n,u){u.r(n);var s=u(4519),r=u(9591),t=u(2556),a=function(e){e.display;var n=(0,s.useRef)();return(0,s.useEffect)((function(){setTimeout((function(){n.current&&n.current.play()}),3e3)}),[]),(0,t.jsx)(r.V,{loop:!1,url:"./soundRA/MensajeBienvenida.mp3",distance:1,ref:n})};n.default=(0,s.memo)(a)}}]);
+//# sourceMappingURL=241.ded00e24.chunk.js.map
