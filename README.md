@@ -4,12 +4,7 @@ This repository contains an AR example using the Zappar SDK for React-Three-Fibe
 ​
 To learn more about Zappar for React-Three-Fiber, head over to the [Zappar for React Three](https://www.npmjs.com/package/@zappar/zappar-react-three-fiber) (@zappar/zappar-react-three-fiber) page on npm.
 ​
-## Preview
-​
-Scan the QR code below using your native camera app or QR code reader to view the example:
-​
-![Preview QR Code"](preview-qr-code.png)
-​
+
 ## Prerequisites
 ​
 To get started you'll want to ensure you have:
