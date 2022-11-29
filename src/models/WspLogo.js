@@ -3,7 +3,7 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
 function WspLogo({ position, scale }) {
-  const { nodes, materials } = useGLTF('/modelosRA/wspLogoCompressed.gltf')
+  const { nodes, materials } = useGLTF('./modelosRA/wspLogoCompressed.gltf')
   const wspLogo = useRef()
   useFrame(({ clock }) => {
     const t = clock.getElapsedTime()
