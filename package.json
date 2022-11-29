@@ -1,5 +1,5 @@
 {
-  "name": "cra",
+  "name": "ar_ios",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -50,7 +50,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://cristianalegrebustos.github.io/Ar_IOS/ ",
+  "homepage": "https://cristianalegrebustos.github.io/Ar_IOS/",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
