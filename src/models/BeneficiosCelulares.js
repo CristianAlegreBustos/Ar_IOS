@@ -3,7 +3,7 @@ import { useGLTF } from '@react-three/drei'
 import { animated } from '@react-spring/three'
 
 export function BeneficiosCelulares({ scale, position }) {
-  const { nodes, materials } = useGLTF('/modelosRA/BeneficiosCelulares.gltf')
+  const { nodes, materials } = useGLTF('./modelosRA/BeneficiosCelulares.gltf')
   return (
     <animated.group dispose={null} scale={scale} position={position}>
       <group rotation={[Math.PI, 0, 0]}>

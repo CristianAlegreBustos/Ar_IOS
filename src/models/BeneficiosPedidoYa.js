@@ -4,7 +4,7 @@ import { animated } from '@react-spring/three'
 
 export function BeneficiosPedidoYa({ scale, position, opacity }) {
   const { nodes, materials } = useGLTF(
-    '/modelosRA/BeneficiosPedidosYaCompressed.gltf'
+    './modelosRA/BeneficiosPedidosYaCompressed.gltf'
   )
   return (
     <animated.group dispose={null} scale={scale} position={position}>

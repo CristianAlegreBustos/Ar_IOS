@@ -4,7 +4,7 @@ import { animated } from '@react-spring/three'
 
 export function BeneficiosCinemarkHoyts({ scale, position }) {
   const { nodes, materials } = useGLTF(
-    '/modelosRA/BeneficiosCinemarkHoytsCompressed.gltf'
+    './modelosRA/BeneficiosCinemarkHoytsCompressed.gltf'
   )
 
   return (

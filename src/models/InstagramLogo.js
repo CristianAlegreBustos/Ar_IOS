@@ -4,7 +4,7 @@ import { useFrame } from '@react-three/fiber'
 
 function InstagramLogo({ position, scale }) {
   const { nodes, materials } = useGLTF(
-    '/modelosRA/instagramLogoCompressed.gltf'
+    './modelosRA/instagramLogoCompressed.gltf'
   )
 
   const igLogo = useRef()
