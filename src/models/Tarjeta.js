@@ -12,7 +12,7 @@ export default function Tarjeta({position}) {
   })
 
   return (
-    <group position={position} dispose={null} scale={0.01}  ref={tarjeta}  >
+    <group position={position} dispose={null} scale={0.01}  ref={tarjeta} onClick={() => console.log('click')} >
       <group rotation={[Math.PI/2,0,0]}>
         <mesh
           castShadow

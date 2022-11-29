@@ -30,7 +30,7 @@ function App() {
         id="zappar-button"
         role="button"
         onKeyPress={() => {
-          setPlacementMode((currentPlacementMode) => !currentPlacementMode);
+          setPlacementMode((currentPlacementMode: any) => !currentPlacementMode);
         }}
         tabIndex={0}
         onClick={() => {
