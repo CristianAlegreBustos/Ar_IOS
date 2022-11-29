@@ -12,13 +12,14 @@ export default function Tarjeta({position}) {
   })
 
   return (
-    <group position={position} dispose={null} scale={0.01}  ref={tarjeta}>
+    <group position={position} dispose={null} scale={0.01}  ref={tarjeta}  >
       <group rotation={[Math.PI/2,0,0]}>
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.tarjeta_final_6.geometry}
           material={materials.diffuse_Red}
+          
         >
           <meshStandardMaterial color={'cyan'} />
         </mesh>
@@ -30,7 +31,7 @@ export default function Tarjeta({position}) {
         >
           <meshStandardMaterial
             color={'yellow'}
-            metalness={2}
+            metalness={0.9}
             roughness={0.6}
           />
         </mesh>
@@ -40,13 +41,14 @@ export default function Tarjeta({position}) {
           geometry={nodes.tarjeta_final_2.geometry}
           material={materials.diffuse_White}
         >
-          <meshStandardMaterial color={'white'} metalness={2} roughness={0.6} />
+          <meshStandardMaterial color={'white'} metalness={0.9} roughness={0.6} />
         </mesh>
         <mesh
           castShadow
           receiveShadow
           geometry={nodes.tarjeta_final_4.geometry}
           material={materials.diffuse_0}
+          onClick={() => console.log('click')}
         >
           <meshStandardMaterial color={'#643fBc'} />
         </mesh>
@@ -55,8 +57,9 @@ export default function Tarjeta({position}) {
           receiveShadow
           geometry={nodes.tarjeta_final_3.geometry}
           material={materials.diffuse_Aqua}
+          onClick={() => console.log('click')}
         >
-          <meshStandardMaterial color={'cyan'} metalness={2} roughness={0.6} />
+          <meshStandardMaterial color={'cyan'} metalness={1} roughness={0.6} />
         </mesh>
         <mesh
           castShadow
@@ -66,7 +69,7 @@ export default function Tarjeta({position}) {
         >
           <meshStandardMaterial
             color={'#151A7b'}
-            metalness={2}
+            metalness={0.9}
             roughness={0.6}
           />
         </mesh>

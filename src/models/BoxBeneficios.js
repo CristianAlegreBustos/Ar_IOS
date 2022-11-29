@@ -188,7 +188,7 @@ function BoxBeneficios({ onSelect, position, name, onEnded, freezed }) {
       >
         <animated.meshStandardMaterial
           color={'#643fBc'}
-          metalness={2}
+          metalness={1}
           roughness={0.6} />
       </animated.mesh>
       <animated.mesh
@@ -202,7 +202,7 @@ function BoxBeneficios({ onSelect, position, name, onEnded, freezed }) {
       >
         <animated.meshStandardMaterial
           color={'#643fBc'}
-          metalness={2}
+          metalness={1}
           roughness={0.6} />
       </animated.mesh>
       <animated.mesh
@@ -216,7 +216,7 @@ function BoxBeneficios({ onSelect, position, name, onEnded, freezed }) {
       >
         <animated.meshStandardMaterial
           color={'#643fBc'}
-          metalness={2}
+          metalness={1}
           roughness={0.6} />
       </animated.mesh>
     </animated.group><PositionalAudio
